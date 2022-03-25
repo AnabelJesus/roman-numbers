@@ -11,7 +11,7 @@ class roman_numbers_should(unittest.TestCase):
         expected_output = "I"
 
         # Act
-        output = roman_numbers.roman(input_int)
+        output = roman_numbers().roman(input=input_int)
 
         # Act
         self.assertEqual(expected_output, output)
